@@ -1,17 +1,3 @@
-/*
-backpic =loadImage("https://raw.githubusercontent.com/duyenle1312/swift-shift/main/bg.png");
-		 backpic01 =loadImage("https://raw.githubusercontent.com/duyenle1312/swift-shift/main/bg.png");
-		 //backpic02 =loadImage("https://raw.githubusercontent.com/Gaspared/FlappyBird/main/img/back.png");
-		 //birdpic =loadImage("https://www.clipartkey.com/mpngs/m/94-942387_artwork-flappy-bird-bird-flappy-bird-sprite.png");
-		 birdpic =loadImage("https://raw.githubusercontent.com/Gaspared/FlappyBird/main/img/bird.png");
-		 wallpic =loadImage("https://raw.githubusercontent.com/Gaspared/FlappyBird/main/img/wall.png");
-		 
-		 //welcomescreen=loadImage("https://raw.githubusercontent.com/duyenle1312/swift-shift/main/welcome.png");
-		 welcomescreen=loadImage("https://raw.githubusercontent.com/duyenle1312/swift-shift/main/screen.png");
-		 welcomescreen.resize(0, displayHeight);
-		 game = 1; score = 0; highscore = 0; x = -200; vertical = 0;*/
- 
- 
  import processing.core.*;
  import processing.data.*;
  import processing.event.*;
