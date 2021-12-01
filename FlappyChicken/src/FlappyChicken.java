@@ -1,17 +1,3 @@
-/*
-backpic =loadImage("https://raw.githubusercontent.com/duyenle1312/swift-shift/main/bg.png");
-		 backpic01 =loadImage("https://raw.githubusercontent.com/duyenle1312/swift-shift/main/bg.png");
-		 //backpic02 =loadImage("https://raw.githubusercontent.com/Gaspared/FlappyBird/main/img/back.png");
-		 //birdpic =loadImage("https://www.clipartkey.com/mpngs/m/94-942387_artwork-flappy-bird-bird-flappy-bird-sprite.png");
-		 birdpic =loadImage("https://raw.githubusercontent.com/Gaspared/FlappyBird/main/img/bird.png");
-		 wallpic =loadImage("https://raw.githubusercontent.com/Gaspared/FlappyBird/main/img/wall.png");
-		 
-		 //welcomescreen=loadImage("https://raw.githubusercontent.com/duyenle1312/swift-shift/main/welcome.png");
-		 welcomescreen=loadImage("https://raw.githubusercontent.com/duyenle1312/swift-shift/main/screen.png");
-		 welcomescreen.resize(0, displayHeight);
-		 game = 1; score = 0; highscore = 0; x = -200; vertical = 0;*/
- 
- 
  import processing.core.*;
  import processing.data.*;
  import processing.event.*;
@@ -34,12 +20,10 @@ backpic =loadImage("https://raw.githubusercontent.com/duyenle1312/swift-shift/ma
     backpic = loadImage("https://raw.githubusercontent.com/duyenle1312/swift-shift/main/bg.png");
     backpic.resize(0, displayHeight);
     birdpic = loadImage("https://raw.githubusercontent.com/duyenle1312/swift-shift/main/bird.png");
-    //
     birdpic1 = loadImage("https://raw.githubusercontent.com/duyenle1312/swift-shift/main/bird1.png");
     birdpic2 = loadImage("https://raw.githubusercontent.com/duyenle1312/swift-shift/main/bird2.png");
     birdpic3 = loadImage("https://raw.githubusercontent.com/duyenle1312/swift-shift/main/bird3.png");
-    //
-    wallpic = loadImage("https://raw.githubusercontent.com/Gaspared/FlappyBird/main/img/wall.png");
+    wallpic = loadImage("https://raw.githubusercontent.com/duyenle1312/swift-shift/main/wall.png");
     welcomescreen= loadImage("https://raw.githubusercontent.com/duyenle1312/swift-shift/main/screen.png");
 	welcomescreen.resize(0, displayHeight);
     game = 1; score = 0; highscore = 0; x = -200; vertical = 0; 
